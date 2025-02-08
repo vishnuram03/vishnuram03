@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="toco shop" />
+    <title>my taco shop</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact us</h1>
+      <nav>
+        <ul>
+          <li><a href="#About LTS">About LTS</a></li>
+          <li><a href="#Our menu">Our menu</a></li>
+          <li><a href="storehour.html">Store Hours</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <img
+        src="taco shop.jpg"
+        alt="it our taco shop"
+        title="our little taco shop"
+        width="1360"
+        height="850"
+      />
+      <figure>
+        <figcaption>Tasty and Delecious taco's are available here</figcaption>
+      </figure>
+      <p>
+        <code>Taco are buy 1 & Get 1 offer</code>
+      </p>
+    </header>
+    <hr />
+    <main>
+      <form action="https://httpbin.org/get">
+        <fieldset>
+          <legend>Send us a message</legend>
+          <p>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="username"
+              id="name"
+              placeholder="your name"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="emailid"
+              id="email"
+              placeholder="your email"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+              required
+            />
+          </p>
+          <p>
+            <label for="phone">phone no</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="4455..."
+              required
+              pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+            />
+          </p>
+          <p>Gender</p>
+          <input type="radio" name="Gender" id="male" value="male" />
+          <label for="male">male</label>
+          <input type="radio" name="Gender" id="female" value="female" />
+          <label for="female">female</label>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
